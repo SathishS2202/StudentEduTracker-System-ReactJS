@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.gridcontainer{
+    margin: 0;
+    padding: auto;
+    display: grid;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 100vh;
+    background-color: darkblue;
+    width:15%
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: flex;
+}
+img{
+    margin-left:-10px;
+    height:110px;
+    width:130px;
+}
+.icons{
+    margin-left:25px;
+    margin-top: 20px;
+    color: white;
+    font-size: 3rem;
+}
+.listitems
+{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.listitems1{
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.body{
+    display: flex;
+}
+.header{
+    background-color: blue;
+    padding: 10px;
+    width:158%; 
+    height: 10vh;
+}
+.header h1{
+    text-align: center;
+    color: white;
+}
+.boxes{
+    margin-top: 50px;
+   margin-left: 10%;
+    display: flex;
+    column-gap: 30px;
+}
+.red{
+    height:25vh;
+    padding: 30px;
+    width: 350%;
+    background-color: red;
+}
+.violet{
+    height:25vh;
+    padding: 30px;
+    width: 350%;
+    background-color: violet;
+}
+.green{
+    height:25vh;
+    padding: 30px;
+    width: 350%;
+    background-color: greenyellow;
+}
+.icon{
+    margin-top: 20px;
+    font-size: 3em;
+    color:white;
+}
+.item{
+    margin-top: 20px;
+    font-size: 1.2em;
+    color:white;
+}
