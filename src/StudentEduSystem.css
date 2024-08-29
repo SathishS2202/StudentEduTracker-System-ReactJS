@@ -2,16 +2,14 @@ body{
     margin: 0;
     padding: 0;
 }
-
 .gridcontainer{
     margin: 0;
-    padding: auto;
+    padding: 10px;
     display: grid;
     margin-left: -10px;
-    margin-top: -10px;
     height: 100vh;
     background-color: darkblue;
-    width:15%
+    width: 15%;   
 }
 ul{
     list-style-type: none;
@@ -20,41 +18,61 @@ ul li{
     display: flex;
 }
 img{
+    margin-top: 60px;
     margin-left:-10px;
     height:110px;
     width:130px;
 }
 .icons{
-    margin-left:25px;
-    margin-top: 20px;
+    margin-top: 100px;
     color: white;
-    font-size: 3rem;
+    font-size: 6rem;
 }
 .listitems
 {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 0.9em;
+    margin-top: 50px;
+    font-size: 1.2em;
     color: white;
     cursor: pointer;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .listitems1{
-    margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 50px;
+    font-size: 1.2em;
     text-align: center;
-    font-size: 0.9em;
     color: white;
     cursor: pointer;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.body{
+.body {
     display: flex;
+    height: 100vh;
 }
-.header{
+.boxes .icon{
+    margin-left: 55px;
+}
+.boxes .item{
+    font-size: 2rem;
+}
+.gridcontainer{
+    margin: 0;
+    padding: auto;
+    display: grid;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 100vh;
+    background-color: darkblue;
+    width: 15%;
+}
+.Mainbody{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+
     background-color: blue;
     padding: 10px;
-    width:158%; 
     height: 10vh;
 }
 .header h1{
@@ -62,36 +80,75 @@ img{
     color: white;
 }
 .boxes{
-    margin-top: 50px;
-   margin-left: 10%;
+    margin-top: 20px;
+    margin-left:2%;
     display: flex;
     column-gap: 30px;
 }
-.red{
-    height:25vh;
+.red, .violet, .green{
+    height: 30vh;
+    width: 20%;
     padding: 30px;
-    width: 350%;
+    flex-grow: 1; 
+}
+.red{
     background-color: red;
 }
 .violet{
-    height:25vh;
-    padding: 30px;
-    width: 350%;
     background-color: violet;
 }
-.green{
-    height:25vh;
-    padding: 30px;
-    width: 350%;
+.green {
     background-color: greenyellow;
 }
 .icon{
     margin-top: 20px;
-    font-size: 3em;
-    color:white;
+    font-size: 5em;
+    color: white;
+    font-weight: bolder;
 }
 .item{
     margin-top: 20px;
     font-size: 1.2em;
-    color:white;
+    color: white;
+}
+.red:hover {
+    background-color: darkred;
+}
+.violet:hover {
+    background-color: darkviolet;
+}
+.green:hover{
+    background-color: darkgreen;
+}
+.icon:hover{
+    transform: scale(1.09); 
+}
+.icons:hover{
+    transform: scale(1.09); 
+}
+.menucontainer{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 19px; 
+    background-color: #f4f4f4;;
+}
+.menu{
+    padding: 2px;
+    text-align: center;
+    color: blue;
+    height: 100%;
+}
+.Mainbody h1{
+    text-align: center;
+}
+.menuicons{
+    font-size: 5rem;
+}
+.menuicons:hover{
+    font-size: 5rem;
+    transform: scale(1.09); 
+}
+p{
+    font-size: xx-large;
 }
